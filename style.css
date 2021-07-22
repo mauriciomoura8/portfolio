@@ -12,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    display: grid;
 
 }
 
@@ -92,7 +93,14 @@ body{
     background-color: black;
   }
 
+  .criador{
+    text-align: center;
+  }
 
+p{
+  font-size: 25px;
+  color: aliceblue;
+}
 
 
 
