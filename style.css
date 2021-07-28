@@ -20,17 +20,16 @@ body{
   
     display: flex;
     justify-content: center;
-    padding: 20px;
-    position: relative;
-    align-content:space-between; 
-    
+    margin-bottom: 150px;
+    border-style: dotted;
+    padding: 25px;
+  
 }
 
 .clock{
     width: 400px;
     height: 400px;
     background-color: aqua;
-    
     border: 3px solid blue;
     position: relative;
     border-radius: 50%;
@@ -68,6 +67,21 @@ body{
   animation: popsicle-animation 5s linear infinite forwards;
 }
 
+.card{
+  
+  color: white;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  padding: 18rem 0 0;
+  max-width: 50ch;
+  border-radius: 1.5rem; 
+  overflow: hidden;
+  box-shadow: 10px 10px 10px 5px black;
+  transition: transform 400ms ease;
+ 
+}
+
+
 .clock .number{
     --rotation: 0;
     position: absolute;
@@ -91,6 +105,7 @@ body{
 .clock .number10{--rotation:300deg}
 .clock .number11{--rotation:330deg}
 .clock .number12{--rotation:360deg}
+
 
 .clock .hand {
     --rotation: 0;
@@ -139,8 +154,10 @@ body{
   }
 
   .criador{
-    
+  
     text-align: center;
+    border-style: dotted;
+    margin-bottom: 50px;
   }
 
 p{
@@ -172,26 +189,13 @@ p{
  
 }
 
-.card{
-  
-  color: white;
-  background-image: url(bg.jpg);
-  background-size: cover;
-  padding: 18rem 0 0;
-  max-width: 50ch;
-  
-  border-radius: 1.5rem; 
-  overflow: hidden;
-  box-shadow: 10px 10px 10px 5px black;
-  transition: transform 400ms ease;
-}
-
 .card:hover{
   transform: scale(1.05)
 }
 
 .card-body{
-  text-align: justify;
+  text-align:justify;
+  font-size: medium;
   color: rgb(255 255 255 / 0.85)
 }
 
