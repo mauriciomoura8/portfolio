@@ -4,62 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta hhtp-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Portfolio V2</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
-    <title>Portfolio</title>
-   
 </head>
 <body>
+    <header>
+        <div class="headerleft">
+            <img class="perfil" src="eu.jpg" alt="eu">
+            <h2><a href="/index.html">Home</a></h2>
+            
+        </div>  
 
-<div class="criador">
-        <p>Made in João Monlevade By Mauricio Moura</p>
-        <p></p>
-        <p><span id="datetime"></span></p>
-</div>
+        <div class="headerright">
+            <h2><a href="#">About Me</a></h2>
+            <h2><a href="#">My Work</a></h2>
+            <h2><a href="#AboutMe2">Hit Me Up</a></h2>
+        </div>  
+    </header>
 
-<div class="conteudo">
 
-
-    <div class="card">
-        <div class="card-content">
-            <h2 class="card-title">Mauricio Moura</h2>
-            <p class="card-body">Graduating in computer engeneering, working and studying web development with emphasis in UI/UX design.</p>
-            <a href="#" class="button">Learn More</a>
+    <div class="AboutMe">
+        <div class="card">
+            <div class="card-content">
+                <h2 class="card-title">Mauricio Moura</h2>
+                <p class="card-body">Graduating in computer engeneering, working and studying web development with emphasis in UI/UX design.</p>
+                <a href="https://github.com/mauriciomoura8" class="button" target="_blank">Learn More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <h2 class="card-title">Tecnologias e Conhecimentos</h2>
+                <p class="card-body">Graduating in computer engeneering, working and studying web development with emphasis in UI/UX design.</p>
+                <a href="https://github.com/mauriciomoura8" class="button" target="_blank">Learn More</a>
+            </div>
         </div>
     </div>
 
-    <div class="popsicle">
-        <div class="palito"></div>
+    <div class="AboutMe2">
+        <div class="card">
+            <div class="card-content">
+                <h2 class="card-title">Get in Touch</h2>
+                <p class="card-body">
+                    <ul>
+                        <li>mauricio_rockr@hotmail.com</li>
+                        <li>(31)99494-2690</li>
+                        <li>github.com/mauriciomoura8</li>
+                    </ul>
+                </p>
+                <a href="https://www.instagram.com/mauricio_moura8/" class="button" target="_blank">Learn More</a>
+            </div>
+        </div>
     </div>
 
-
-   
-
-    <script>
-        var dt = new Date();
-        document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" - "+
-         (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
-    </script>
-
-    <div class="clock">
-        <div class="hand hour"data-hour-hand></div>
-        <div class="hand minute"data-minute-hand></div>
-        <div class="hand second"data-second-hand></div>
-        <div class="number number1">1</div>
-        <div class="number number2">2</div>
-        <div class="number number3">3</div>
-        <div class="number number4">4</div>
-        <div class="number number5">5</div>
-        <div class="number number6">6</div>
-        <div class="number number7">7</div>
-        <div class="number number8">8</div>
-        <div class="number number9">9</div>
-        <div class="number number10">10</div>
-        <div class="number number11">11</div>
-        <div class="number number12">12</div>
+    <div class="funstuff">
+        <h1>Wanna see some fun stuff that i made with HTML, CSS and JS? <a href="#">Click Here!</a></h1>
     </div>
 
-</div>
+    <div class="funstuff2">
+        <h1>Wanna see some things that i made with UX/UI? <a href="#">Click Here!</a></h1>
+    </div>
+
 </body>
 </html>
